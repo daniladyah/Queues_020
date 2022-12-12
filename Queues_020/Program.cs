@@ -74,6 +74,9 @@ namespace Queues_020
         }
         public void display()
         {
+            int FRONT_position = FRONT;
+            int REAR_position = REAR;  
+            /* Checks if the queue is empty. */
 
         }
         static void Main(string[] args)
