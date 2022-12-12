@@ -98,12 +98,24 @@ namespace Queues_020
                 /*traverses the queue till the last position of the array. */
                 while (FRONT_position <= max -1)
                 {
-
+                    Console.Write(queue_array[FRONT_position] + " ");
+                    FRONT_position++;
                 }
+                Console.WriteLine() ;
             }
         }
+
         static void Main(string[] args)
         {
+            Queue queue = new Queue();
+            char ch;
+            while(true)
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                }
+            }
         }
     }
 }
