@@ -115,6 +115,8 @@ namespace Queues_020
                 {
                     Console.WriteLine("Menu");
                     Console.WriteLine("1. Implement insert operation");
+                    Console.WriteLine("2. Implement delete operation");
+
                 }
             }
         }
